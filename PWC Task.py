@@ -1,0 +1,5 @@
+endereco = input('Qual o nome da rua?: ')
+numero = int(input('E qual é o número do local?: '))
+estado = input('Qual estado fica o endereço?: ')
+pais = input('Por fim, qual é o país em que o endereço está localizado?: ')
+print(f'O endereço no qual você digitou é {endereco}, {numero} - {estado}, {pais}')
